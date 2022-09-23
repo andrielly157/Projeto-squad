@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: rgb(3, 3, 3)
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    height: 90px;
+}
+
+.logo img{
+    width: 110px;
+}
+
+.menu-itens a img{
+    width: 26px;
+}
+.menu-itens a{
+    margin-left: 20px;
+}
+
+.content{
+    height: calc(100vh - 90px);
+    width: 100%;
+    padding: 0 5%;
+    display: -webkit-inline-flex;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 248%;
+    width: 100%;
+}
+.left-side h1{
+    font-size: 50px;
+    color: rgb(238, 176, 18);
+}
+.left-side h2{
+    font-size: 50px;
+    color: rgb(238, 176, 18);
+}
+
+
+.left-side p{
+ color: #fff;
+ margin-bottom: 60px;
+ height: 330%;
+ width: 40%;
+}
+
+.left-side span{
+    font-size: 50px;
+    font-weight: 500;
+    color:rgb(238, 176, 18) ;
+}
+.left-side a{
+    text-decoration:none;
+    color:#fff;
+    background-color: rgb(238, 176, 18);
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 310%;
+    width: 95%;
+    
+}
+ 
+.search-box{
+margin-left: 0%;
+background: rgb(214, 157, 11);
+height: 40px;
+padding: 10px;
+border-radius: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: rgb(12, 10, 10);
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    font-family: 'Open Sans';
+}
+
+::-webkit-input-placeholder{
+    color: #1e3754;
+}
+
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(214, 157, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: rgb(12, 10, 10);
+}
+
+.adl {
+    text-align: center;
+    width: 100%;
+    padding: 300px;
+    background-color:black;
+    color: #fff;
+    
+
+}
+.rpz{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    height: 305%;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #fff ;
+    font-family: cooper black;
+    font-size: 13;
+    padding: 9px 50px;
+    color: black;
+}
