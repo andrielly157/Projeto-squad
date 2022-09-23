@@ -24,7 +24,7 @@ nav {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: black;
     height: 290px;
-    background-image: url(../IMG/barbershop.png);
+    background: url(IMG/barbershop.png);
     background-repeat: no-repeat;
     background-position:left ;
     
